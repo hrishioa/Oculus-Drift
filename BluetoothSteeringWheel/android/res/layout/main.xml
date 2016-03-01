@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout android:id="@+id/LinearLayout01" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        
+<TextView android:id="@+id/x_text" android:textSize="15pt" android:text="x=" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent"></TextView>
+<TextView android:id="@+id/x" android:textSize="15pt" android:text="10" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent"></TextView>
+
+<TextView android:id="@+id/y_text" android:textSize="15pt" android:text="y=" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent"></TextView>
+<TextView android:id="@+id/y" android:textSize="15pt" android:text="10" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent"></TextView>
+
+<TextView android:id="@+id/z_text" android:textSize="15pt" android:text="z=" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent"></TextView>
+<TextView android:id="@+id/z" android:textSize="15pt" android:text="10" android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="fill_parent"></TextView>
+
+</LinearLayout>
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+<Button android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/connect" android:text="Connect"></Button>
+<TextView android:textSize="15pt" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/connectionInfo" android:text="Not connected!"></TextView>
+
+</LinearLayout>
+
+
+<Button android:layout_height="fill_parent" android:id="@+id/start" android:textSize="15pt" android:text="Start driving" android:layout_width="match_parent"></Button>
+
+
+</LinearLayout>
